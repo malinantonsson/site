@@ -12,5 +12,9 @@
     "marked": "0.3.x",
     "rupture": "0.6.x",
     "stylus": "0.54.x"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "roots-browserify": "^0.6.0"
   }
 }

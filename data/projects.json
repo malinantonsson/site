@@ -1,10 +1,10 @@
 [
     {
-        "client": "The Times",
+        "client": "Magnum Ice Cream - Unilever",
         "name": "Website",
         "link": "http://thetimes.co.uk",
-        "agency": {"name": "News UK", "url": "http://www.news.co.uk/"},
-        "tags": ["Dust.js", "Sass", "TTD", "ES6", "Gulp"]
+        "agency": {"name": "R/GA", "url": "http://www.rga.com"},
+        "tags": ["AEM", "Sass", "Handlebars", "Gulp"]
     },
 
     {

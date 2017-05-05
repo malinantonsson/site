@@ -1,7 +1,22 @@
 @import '_settings'
 
+@import 'components/_projects'
+
 normalize-css()
 base()
 
-body
-  padding: 50px
+.body
+    display: flex
+    height: 100%;
+    min-height: 100%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+.content,
+.sidenav
+    flex-basis: 50%
+
+main
+  background-color: gray

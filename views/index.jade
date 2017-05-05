@@ -1,6 +1,12 @@
 extends layout
 
-block content
-  h3 Welcome to roots!
-  :marked
-    Find tutorials and documentation at http://roots.cx : )
+block main
+    h1 Welcome to roots!
+    :marked
+        Find tutorials and documentation at http://roots.cx : )
+
+block sidenav
+    ul.projects
+        - var projects = records.projects
+        each project in projects
+            +project-list(project)

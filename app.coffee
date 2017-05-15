@@ -14,7 +14,8 @@ module.exports =
     browserify(files: "assets/js/main.js", out: 'js/build.js', transform:  [babelify.configure({stage : 0 })]),
     css_pipeline(files: 'assets/css/*.styl'),
     records(
-      projects: { file: 'data/projects.json' }
+      projects: { file: 'data/projects.json' },
+      contactList: { file: 'data/contact.json' }
     )
   ]
 

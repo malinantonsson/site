@@ -1,145 +1,80 @@
 [
     {
-        "client": "Magnum Ice Cream - Unilever",
+        "client": "BOXT",
         "name": "Website",
-        "link": "http://thetimes.co.uk",
+        "link": "https://boxt.co.uk/",
+        "role": "Front-end developer",
+        "description": "",
+        "tags": ["AngularJS", "Sass", "Ruby", "Grunt"]
+    },
+
+    {
+        "client": "Electrolux",
+        "name": "Website",
+        "link": "http://www.electrolux.co.uk/",
+        "role": "Front-end developer",
+        "description": "",
+        "tags": ["Episerver", "Sass", "Grunt"]
+    },
+
+    {
+        "client": "Magnum Ice Cream",
+        "name": "Unilever",
+        "link": "http://magnumicecream.com",
         "agency": {"name": "R/GA", "url": "http://www.rga.com"},
+        "role": "Front-end developer",
+        "description": "",
         "tags": ["AEM", "Sass", "Handlebars", "Gulp"]
     },
 
     {
-        "client": "Warp Records",
-        "name": "Website",
-        "link": "http://warp.net",
-        "agency": {"name": "Stinkdigital", "url": "http://stinkdigital"},
-        "tags": ["Backbone.js", "Stylus", "Gulp"]
+        "client": "Nike",
+        "name": "My First Nike",
+        "link": "http://www.nike.com/swooshsquad",
+        "agency": {"name": "R/GA", "url": "http://www.rga.com"},
+        "description": "",
+        "tags": ["AngularJS", "Sass", "Grunt"]
     },
 
     {
-        "client": "Google",
-        "name": "Web Fundamentals",
-        "link": "http://developers.google.com/web/fundamentals/",
-        "agency": {"name": "R/GA", "url": "http://rga.com"},
-        "tags": ["AngularJS", "Jekyll", "Grunt"]
+        "client": "Microsoft",
+        "name": "Windows 10 emulator",
+        "link": "https://www.microsoft.com/en-us/windows/emulator",
+        "agency": {"name": "R/GA", "url": "http://www.rga.com"},
+        "description": "",
+        "tags": ["Backbone.js", "Sass", "Grunt", "Left to right"]
     },
 
     {
-        "client": "Google",
-        "name": "World Cup",
-        "link": "http://google.com/trends/worldcup",
-        "agency": {"name": "R/GA", "url": "http://rga.com"},
-        "tags": ["Django", "Grunt", "Sass"]
-    },
-{
-  "client": "Facebook",
-  "name": "Summer Toolkit",
-  "link": "http://www.getswitchedontosummer.com/",
-  "agency": {"name": "Facebook", "url": "http://facebook.com"},
-  "tags": ["Roots", "Stylus", "Jade"]
-},
-{
-  "client": "Lloyds Bank",
-  "name": "Project under NDA",
-  "agency": {"name": "Fluxx", "url": "http://fluxx.uk.com"},
-  "tags": ["AngularJS", "Grunt", "Sass"]
-},
-
-    {
-        "client": "Heineken",
-        "name": "Open Your City",
-        "link": "http://openyourcity.heineken.com/",
-        "agency": {"name": "R/GA", "url": "http://rga.com"},
-        "tags": ["AngularJS", "Grunt", "Sass"]
+        "name": "Build your Beast",
+        "role": "Front-end developer",
+        "link": "http://www.buildyourbeast.co.uk/",
+        "description": "Hobby project",
+        "tags": ["Sass", "Gulp", "SVG"]
     },
 
     {
-        "client": "Heineken",
-        "name": "The Sub",
-        "link": "http://www.the-sub.com",
-        "agency": {"name": "R/GA", "url": "http://rga.com"}
+        "client": "Belvedere",
+        "name": "Internal training Website",
+        "agency": {"name": "Alphabet Collective", "url": "http://thealphabetcollective.com/"},
+        "role": "Front-end developer",
+        "description": "",
+        "tags": ["ReactJs", "Redux", "SVG animations", "Sass", "ES6"]
     },
 
     {
-        "client": "Beats By Dre",
-        "name": "Main website's prototype",
-        "link": "http://www.beatsbydre.com/",
-        "agency": {"name": "R/GA", "url": "http://rga.com"},
-        "tags": ["Jekyll", "Sass"]
+        "client": "BillSumo",
+        "name": "BillSumo Internal site",
+        "link": "https://billsumo.com.au/",
+        "description": "",
+        "tags": ["AngularJS", "Less", ".Net"]
     },
 
     {
-        "client": "O2",
-        "name": "Take Your Place",
-        "link": "https://www.youtube.com/user/TheO2London/TakeYourPlace",
-        "agency": {"name": "R/GA", "url": "http://rga.com"},
-        "tags": ["AngularJS", "Yeoman", "Sass"]
-    },
-
-    {
-        "client": "JD Sports",
-        "name": "King of Trainers",
-        "link": "http://vimeo.com/47080307",
-        "agency": {"name": "R/GA", "url": "http://rga.com"}
-    },
-
-    {
-        "client": "Aston Martin",
-        "name": "Main website",
-        "link": "http://www.astonmartin.com",
-        "agency": {"name": "R/GA", "url": "http://rga.com"}
-    },
-
-    {
-        "client": "Ray Ban",
-        "name": "Ambermatic",
-        "link": "http://www.ray-ban.com/sweden/shades-of-yellow",
-        "agency": {"name": "R/GA", "url": "http://rga.com"},
-        "tags": ["Yeoman", "jQuery"]
-    },
-
-    {
-        "client": "Sara Lee",
-        "name": "Senseo",
-        "link": "http://www.senseo.com/",
-        "agency": {"name": "R/GA", "url": "http://rga.com"}
-    },
-
-    {
-        "client": "Ale De Carvalho",
-        "name": "Portfolio",
-        "link": "http://a-d-c.net/",
-        "tags": ["SOTD", "WordPress", "Sass"]
-    },
-
-    {
-        "client": "Harvey Nichols",
-        "name": "E-commerce & blogging platform",
-        "link": "http://www.harveynichols.com/",
-        "agency": {"name": "Pod1", "url": "http://pod1.com"},
-        "tags": ["Magento", "WordPress"]
-    },
-
-    {
-        "client": "Gieves & Hawkes",
-        "name": "E-commerce & blogging platform",
-        "link": "http://www.gievesandhawkes.com/",
-        "agency": {"name": "Pod1", "url": "http://pod1.com"},
-        "tags": ["Magento", "WordPress"]
-    },
-
-    {
-        "client": "Links of London",
-        "name": "E-commerce platform",
-        "link": "http://www.linksoflondon.com/gb-en/",
-        "agency": {"name": "Pod1", "url": "http://pod1.com"},
-        "tags": ["Magento"]
-    },
-
-    {
-        "client": "Matthew Williamson",
-        "name": "Blogging platform",
-        "link": "http://www.matthewwilliamson.com/",
-        "agency": {"name": "Pod1", "url": "http://pod1.com"},
-        "tags": ["WordPress"]
+        "client": "LayPay",
+        "name": "LayPay customer portal",
+        "link": "https://laypayit.com/",
+        "description": "",
+        "tags": ["jQuery", "Less", ".Net"]
     }
 ]

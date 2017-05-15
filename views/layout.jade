@@ -12,8 +12,16 @@ html
     != css()
 
   body.body
-    main.content
-      block main
+    div.wrapper
+      main.content
+        block main
+
+      footer.footer
+        nav.contact
+          ul.contact-list
+            - var contactList = records.contactList
+            each contact in contactList
+              +contact-item(contact)
 
     nav.sidenav
         block sidenav

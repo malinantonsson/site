@@ -1,7 +1,27 @@
 .contact
 	
 
-.contact-list
+.contact__list
 	display: flex
 	padding-left: 0
 	list-style: none
+	width: 100%
+	justify-content: center
+	
+.contact__item
+	position: relative
+	&:last-child
+		.contact__link:after
+			content: ""
+
+.contact__link
+	padding: 1rem
+	display: inline-block
+	transition: padding 300ms ease-in
+	&:hover
+		padding-right: 2rem
+		padding-left: 2rem
+	&:after
+		content: "|"
+		position: absolute
+		right: 0

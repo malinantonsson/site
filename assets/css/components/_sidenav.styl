@@ -1,2 +1,27 @@
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%)
+    background-position: -99% 0%;
+  }
+
+  50% {
+    transform: translateY(0%)
+    background-position: -99% 0%;
+  }
+  
+  100% {
+    transform: translateY(0%)
+  	background-position: 0% 0%;
+  }
+}
+
 .sidenav
     overflow-y: scroll
+    flex-grow: 1
+    transform: translateY(-100%)
+    animation: slideDown 2000ms ease-in forwards
+    animation-delay: 500ms
+    background: rgba(248,80,50,1);
+    background-image: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(241,111,92,1) 50%, rgba(246,41,12,1) 51%, rgba(240,47,23,1) 71%, rgba(231,56,39,1) 100%);
+    background-size: 200% 100%
+    background-position: -99% 0%; 
